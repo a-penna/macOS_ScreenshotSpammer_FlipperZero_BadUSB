@@ -1,0 +1,16 @@
+REM to bypass Keyboard Setup Assistant
+ID 05ac:021e Apple:Keyboard
+
+REM To reactivate the Mac in case it is locked and the screen is turned off.
+STRING x
+DELAY 1000
+
+REM Repeats the command+shift+3 key combination 60 times. 
+REM A delay has been added because it seems that macOS cannot take many screenshots too quickly when Mac is locked.
+HOLD SHIFT 
+HOLD GUI 
+DEFAULT_DELAY 500
+STRING 3
+REPEAT 60
+RELEASE SHIFT
+RELEASE GUI
