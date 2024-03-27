@@ -1,0 +1,1 @@
+# macOS-Screenshot-Spammer-Flipper-Zero-BadUSB
